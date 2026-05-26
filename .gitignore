@@ -1,0 +1,50 @@
+# === 敏感配置（绝对不能上传）===
+.env
+*.env
+!*.env.example
+
+# === API Keys & Secrets ===
+# 任何含 key/secret/token 的配置文件
+*secret*
+*private*
+
+# === 运行时数据（workspace 目录整个忽略）===
+workspace/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# === 虚拟环境 ===
+venv/
+.venv/
+env/
+.conda/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === Windows metadata ===
+*Zone.Identifier
+
+# === 测试 ===
+.pytest_cache/
+.coverage
+htmlcov/
+*.coverage.*

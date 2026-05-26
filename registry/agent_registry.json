@@ -1,0 +1,39 @@
+{
+  "agents": [
+    {
+      "id": "FE",
+      "name": "前端工程师",
+      "capabilities": ["HTML", "UI", "React", "CSS", "TypeScript", "API集成", "前端", "页面"],
+      "tools": ["write_file", "read_file"],
+      "prompt_version": "v1.0"
+    },
+    {
+      "id": "BE",
+      "name": "后端工程师",
+      "capabilities": ["API", "业务逻辑", "JWT", "数据库交互", "Python"],
+      "tools": ["write_file", "read_file", "execute_code"],
+      "prompt_version": "v1.0"
+    },
+    {
+      "id": "DB",
+      "name": "数据库工程师",
+      "capabilities": ["Schema设计", "SQL", "查询优化", "迁移"],
+      "tools": ["write_file", "read_file"],
+      "prompt_version": "v1.0"
+    },
+    {
+      "id": "QA",
+      "name": "质量验证",
+      "capabilities": ["测试", "验收", "VAL", "代码审查"],
+      "tools": ["read_file", "execute_code"],
+      "prompt_version": "v1.0"
+    },
+    {
+      "id": "OPS",
+      "name": "部署运维",
+      "capabilities": ["HTML", "前端", "Docker", "CI/CD", "环境配置", "部署", "项目初始化"],
+      "tools": ["write_file", "execute_code"],
+      "prompt_version": "v1.0"
+    }
+  ]
+}
